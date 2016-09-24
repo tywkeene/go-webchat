@@ -1,0 +1,14 @@
+doc_dir = "/home/webchat/docs/"
+static_dir = "/home/webchat/static/"
+
+port = "80"
+
+persist = true
+persist_file_path = "/home/webchat/data/data.json"
+persist_interval = "5m"
+
+get_clients_endpoint = false
+
+ssl = true
+ssl_cert_path = "/home/webchat/secret/cert.pem"
+ssl_key_path = "/home/webchat/secret/key.pem"
